@@ -17,8 +17,6 @@ const heartRate = document.getElementById("heartRate");
 const calories = document.getElementById("calories");
 const steps = document.getElementById("steps");
 
-heartRate.text = `--`; 
-
 var months = new Array();
 months[0] = "Jan";
 months[1] = "Feb";
@@ -58,6 +56,7 @@ function configureClock() {
 }
 
 function configureHeartRateMonitor() {
+  heartRate.text = `--`; 
   if (HeartRateSensor && appbit.permissions.granted("access_heart_rate")) {
      const hrm = new HeartRateSensor();
      hrm.addEventListener("reading", () => {
