@@ -8,6 +8,8 @@ Designed for fitbit versa.
 
 ## History
 
+1.0.3 2022-03-19 Heartrate was not updating consistently; fixed.
+
 1.0.2 2022-03-19 Converting to a CLI project. No application changes at this time.
 
 1.0.1 2022-03-14 Fixed issue where heartrate would not load on startup. Release approved by FitBit
