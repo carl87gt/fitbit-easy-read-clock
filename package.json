@@ -1,6 +1,18 @@
 {
-  "devDependencies": {
-    "@fitbit/sdk": "~4.3.0"
+  "name": "easy-read-clock",
+  "version": "1.0.1",
+  "description": "High-contrast, digital clock face with month, day, heart-rate, calories burned and steps. This clock face was design to be easily read in day or night with large fonts and high contrast colors to make it easier to read.",
+  "keywords": [
+    "digital"
+  ],
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "author": "Carl Armbruster",
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "build": "fitbit-build",
+    "debug": "fitbit",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "fitbit": {
     "appUUID": "a629f3e9-f20a-4a50-b398-294c7b2f9a8b",
@@ -23,5 +35,10 @@
       }
     },
     "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.3.0",
+    "@fitbit/sdk-cli": "^1.7.3",
+    "fitbit-sdk-types": "^7.0.5"
   }
 }
