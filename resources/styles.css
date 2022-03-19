@@ -1,0 +1,99 @@
+.background {
+  viewport-fill: black;
+}
+.clockNumbers {
+  font-size: 70;
+  font-family: System-Bold;
+  text-length: 16; 
+  text-anchor: start;
+  display-align: center;
+  fill: aqua;
+}
+
+#timeLabel {
+  x: 0%;
+  y: 50%-60;
+}
+
+#monthLabel {
+  font-size: 60;
+  font-family: System-Bold;
+  text-anchor: start;
+  display-align: center;
+  fill: aqua;
+  x: 0%;
+  y: 50%;
+}
+
+#dayLabel {
+  font-size: 60;
+  font-family: System-Bold;
+  text-anchor: start;
+  display-align: center;
+  fill: aqua;
+  text-length: 4; 
+  x: 0%;
+  y: 50%+50;
+}
+
+#heart {
+  display-align: center;
+  text-anchor: end;
+  x: 85%;
+  y: 40%;
+}
+
+.heartRate {
+  font-size: 75;
+  font-family: System-Bold;
+  text-length: 16; 
+  fill: white;
+}
+
+#heartRate {
+  display-align: after;
+  text-anchor: end;
+  x: 83%;
+  y: 55%;
+}
+
+#fire {
+  display-align: center;
+  text-anchor: end;
+  x: 85%;
+  y: 59%;
+}
+
+.calories {
+  font-size: 60;
+  font-family: System-Bold;
+  text-length: 16; 
+  fill: white;
+}
+
+#calories {
+  display-align: center;
+  text-anchor: end;
+  x: 83%;
+  y: 75%;
+}
+
+.walking {
+  display-align: after;
+  text-anchor: end;
+  x: 100%-49;
+  y: 100%-60;
+}
+
+.steps {
+  font-size: 60;
+  font-family: System-Bold;
+  text-length: 16; 
+  fill: white;
+}
+
+#steps {
+  text-anchor: end;
+  x: 83%;
+  y: 95%;
+}

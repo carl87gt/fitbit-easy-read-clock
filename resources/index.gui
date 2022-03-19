@@ -1,0 +1,25 @@
+<svg class="background">
+  <svg class="clock-container">
+    <text class="clockNumbers" id="timeLabel" />
+  </svg>
+  
+  <svg class="date-container">
+    <text class="month" id="monthLabel" />
+    <text class="day" id="dayLabel" />
+  </svg>
+  
+  <svg class="steps-container">
+    <image href="images/walking60.png" class="walking" id="walking" height="48" width="48" />
+    <text class="steps" id="steps" />
+  </svg>  
+  
+  <svg class="calories-container">
+    <image href="images/fire48.png" class="fire" id="fire" height="48" width="48" />
+    <text class="calories" id="calories" />
+  </svg>
+    
+  <svg class="heartRate-container">
+    <image href="images/heart.png" class="heart" id="heart" height="48" width="48" />
+    <text class="heartRate" id="heartRate" />
+  </svg>  
+</svg>

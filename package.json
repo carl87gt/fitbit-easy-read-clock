@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.3.0"
+  },
+  "fitbit": {
+    "appUUID": "a629f3e9-f20a-4a50-b398-294c7b2f9a8b",
+    "appType": "clockface",
+    "appDisplayName": "Easy read clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate",
+      "access_user_profile",
+      "run_background"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Easy read clock"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
