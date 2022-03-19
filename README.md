@@ -1,5 +1,10 @@
 # fitbit-easy-read-clock
-Easy read clock face for fitbit versa
+
+High-contrast, digital clock face with month, day, heart-rate, calories burned and steps. This clock face was design to be easily read in day or night with large fonts and high contrast colors to make it easier to read.
+
+Designed for fitbit versa.
+
+![Screenshot](https://raw.githubusercontent.com/carl87gt/fitbit-easy-read-clock/main/build/screenshots/Easy-read-clock-screenshot.png)
 
 ## History
 
