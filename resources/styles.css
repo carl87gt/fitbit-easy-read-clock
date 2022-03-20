@@ -4,7 +4,7 @@
 .clockNumbers {
   font-size: 70;
   font-family: System-Bold;
-  text-length: 16; 
+  text-length: 16;
   text-anchor: start;
   display-align: center;
   fill: aqua;
@@ -31,7 +31,7 @@
   text-anchor: start;
   display-align: center;
   fill: aqua;
-  text-length: 4; 
+  text-length: 4;
   x: 0%;
   y: 50%+50;
 }
@@ -39,18 +39,18 @@
 #heart {
   display-align: center;
   text-anchor: end;
-  x: 85%;
+  x: 85%-1;
   y: 40%;
 }
 
 .heartRate {
   font-size: 75;
   font-family: System-Bold;
-  text-length: 8; 
+  text-length: 8;
   fill: white;
 }
 
-#heartRate {
+#heartRateLabel {
   display-align: after;
   text-anchor: end;
   x: 83%;
@@ -67,11 +67,11 @@
 .calories {
   font-size: 60;
   font-family: System-Bold;
-  text-length: 16; 
+  text-length: 16;
   fill: white;
 }
 
-#calories {
+#caloriesLabel {
   display-align: center;
   text-anchor: end;
   x: 83%;
@@ -88,11 +88,11 @@
 .steps {
   font-size: 60;
   font-family: System-Bold;
-  text-length: 16; 
+  text-length: 16;
   fill: white;
 }
 
-#steps {
+#stepsLabel {
   text-anchor: end;
   x: 83%;
   y: 95%;

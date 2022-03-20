@@ -8,6 +8,8 @@ Designed for fitbit versa.
 
 ## History
 
+1.0.4 2022-03-20 Add clockface color settings.
+
 1.0.3 2022-03-19 Heartrate was not updating consistently; fixed.
 
 1.0.2 2022-03-19 Converting to a CLI project. No application changes at this time.
